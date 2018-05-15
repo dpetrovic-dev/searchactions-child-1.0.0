@@ -1,0 +1,337 @@
+/*
+
+Theme Name: searchactions-child
+
+Theme URI: http://wordpress.org/
+
+Author: SearchActions
+
+Author URI: https://searchactions.com
+
+Description: Custom theme
+
+Version: 1.0.0
+
+License: GNU General Public License
+
+License URI: https://www.gnu.org/licenses/gpl.html
+
+Template: searchactions
+
+*/
+.flex{display:flex}
+.flex-center-vert{display: flex;justify-content: center;flex-direction: column;text-align: center;}
+/*********************************************************************
+
+-------------  FONTS
+
+**********************************************************************/
+
+
+/****************************************************************************************
+ 
+ TYPOGRAPHY 
+ 
+*****************************************************************************************/
+
+
+/****************************************************************************************
+ 
+ BUTTONS AND LINKS
+ 
+*****************************************************************************************/
+
+
+/*********************************************************************
+
+-------------  NAV AND SLIDER
+
+**********************************************************************/
+
+/*********************************************************************
+
+-------------  SITEMAP PAGE
+
+*********************************************************************/
+.sitemap h1.title-arrow{text-align:center;}
+.sitemap ul,.sitemap h1.title-arrow{width:100%}
+.sitemap ul li{ list-style:none; list-style-image:none; list-style-type:none;text-align:center;width:100%}
+/*********************************************************************
+
+-------------  GALLERY PAGE
+
+*********************************************************************/	
+	.picture-gallery {text-align:center}
+	.picture-gallery h1{margin-bottom:4rem;text-align:center;width:100%;}
+	
+/*********************************************************************
+
+-------------  FOOTER
+
+*********************************************************************/
+.cta > .grid-container {
+    position: relative;
+    z-index: 8;
+}
+section.cta{padding:0;}
+section.cta:after {
+z-index: 1;
+}
+.cta-service{background: rgb(205,169,111);
+background: linear-gradient(180deg, rgba(205,169,111,1) 0%, rgba(235,208,165,1) 100%);padding:0}
+.cta-location,
+.cta-response-form{padding: 3rem;}
+.cta-response-form {background: rgba(255, 255, 255, .2);border-radius: 0;box-shadow: 12px 0 15px -4px rgba(28, 31, 34, 0.141), -12px 0 8px -4px rgba(28, 31, 34, 0.141);}
+
+.cta-response-form input:hover {background: #fff;}
+.cta-response-form .form-field label{display:none}
+
+.cta-service .frm-show-form{background:none;border:none;border-radius:0;}
+.cta-service h2,
+.cta-service p{color:#21201e;}
+.cta-service h2{line-height:1;font-size:2em}
+.cta-service h2.smaller{font-size:2em}
+.cta-service .contactus h2.cta-title{padding-top:3rem}
+.direction-links{margin:0;}
+span.directions{display:inline-block;margin-top:0}
+span.directions a,
+p.privacy a{color:#3b5998;font-weight:400;}
+.footer-social br{display:none}
+.cta-service h2.form_header,
+.cta-service .form_description{text-align:center}
+.cta-service .form_description{margin-bottom:1rem}
+.cta-service .frm_forms input, 
+.cta-service .frm_forms select, 
+.cta-service .frm_forms textarea{background:#fff;}
+ p.privacy{font-size:.90em; }
+.cta-service p.privacy{text-align:center}
+.frm_submit {margin-left:auto;margin-right:auto;text-align:center;width:75%}
+.footer-menu-item a:hover{color:#fff;opacity:0.7}
+footer {
+    background-image: url(/wp-content/uploads/footer-bg.jpg);
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+footer.footer-custom .grid-x {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+}
+
+footer.footer-custom .grid-x img {
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+}
+ul.footer-menu{margin-top:0}
+ul.footer-menu li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+li.footer-social-item{margin-right:.5rem;}
+li.footer-social-item:last-of-type{margin-right:0}
+li.footer-social-item a i {
+    /*color: #202020;*/
+    background: #fff;
+    border-radius: 100px;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    padding: 9px 0;
+    font-size: 16px;
+}
+li.footer-social-item a i.fa-facebook-f{color:#3b5998}
+li.footer-social-item a i.fa-instagram{color:#4E433C}
+
+li.footer-social-item a {
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+}
+.copyright{background: #fafafa;border-top:1px solid #eaeaea;}
+.copyright,
+.copyright a,
+.copyright p{font-weight:normal; font-size:.95em;color:#21201e;}
+.copyright .cell:first-of-type p{text-align:left}
+.copyright .cell:last-of-type p{text-align:right}
+/*********************************************************************
+
+-------------  MOBILE TAPTAP HEADER
+
+*********************************************************************/
+
+.taptap-header {
+    border: 0;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+/*********************************************************************
+
+-------------  MISC
+
+*********************************************************************/
+.home .no-home{display:none}.object-fit img{object-fit: cover;height:100%;width:auto}
+#back-top{left:48.35%}
+nav .top-bar ul li a {margin-right: 2rem;}
+
+/*********************************************************************
+
+-------------  BLOG
+
+*********************************************************************/
+.blog-home h1{text-align:center;margin-top:4rem;margin-bottom:0;width:100%}
+.blog-home .interior main .entry-content-wrapper section.blog{padding-top:0}
+.bloggy .grid-container article, .knowledge-content h1{margin-top:0}
+
+.article-author{clear:both;display:block;margin-bottom:1.5rem;}.author-avatar img.avatar {
+    border: 2px solid #000;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    padding: 3px;
+}
+.author-avatar {
+    float: left;
+    margin-right: 1rem;
+}
+.article-date {
+    float: left;
+}
+.pt-cv-pagination>li:first-child>a, .pt-cv-pagination>li:first-child>span,
+.pt-cv-pagination>li:first-child>a, .pt-cv-pagination>li>span,.pt-cv-pagination>li:last-child>a, 
+.pt-cv-pagination>li:last-child>span
+{border-radius:3px!important}
+.blog-author{display:none}
+/*********************************************************************
+
+-------------  SCREEN SIZE:  LARGE (1024px and up)
+
+**********************************************************************/
+
+@media screen and (min-width:64em){
+    .taptap-menu-button-wrapper, .taptap-search-button-wrapper, .taptap-logo {display: none;}
+    .hide-for-large {display: none;}
+    .mobile_nav {display: none;}
+	section.home-res .reservation-section h2{}
+	section.footer-res .reservation-section{background: rgb(250,250,250);
+background: radial-gradient(circle, rgba(250,250,250,1) 0%, rgba(232,232,232,1) 100%);}
+}
+
+/*********************************************************************
+
+-------------  SCREEN SIZE:  X-SMALL, SMALL, MEDIUM (0 - 1023px)
+
+**********************************************************************/
+@media screen and (max-width:63.975em){
+    .hide-for-small {display: none;}
+    
+header.header{padding-top: 110px;padding-bottom:2rem;overflow-x: hidden;}
+/*.menu4-main-nav ul {display:inline-block;float:none}
+.menu4-main-nav ul li {display:inline-block!important;}
+nav .top-bar ul li a { margin-right: 1.5rem;}
+.top-bar-center,.menu4-main-nav{text-align:center;width:100%}*/
+/* MOBILE BUTTONS AND MENU */
+.taptap-main-inner-inner{padding-top:25px}
+.taptap-main-inner-inner .taptap-contents-wrapper ul.menu li {
+    margin: 0.5rem 0;
+}
+.mobile_buttons .grid-container{padding:0}
+	.mobile_buttons a{padding:0 1rem}
+	.mobile-res{padding:2rem 0}
+	.mobile_nav {display:block;margin-top:6rem;position: absolute; width: 100%;z-index: 1;}
+	.mobile_buttons a {
+    color: #cda96f;
+    font-family: "Brandon Grotesque Bold", serif;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-size: 12px;
+}
+.mobile_buttons a i {
+    color: #fff;
+}
+	.mobile_buttons .cell{border:none}
+
+html {
+    margin-top: 0 !important;
+}
+
+}
+/*********************************************************************
+
+-------------  SCREEN SIZE:  X-SMALL, SMALL // LANDSCAPE  (0 - 639px)
+
+**********************************************************************/
+@media screen and (max-width: 39.9375em) {
+.stagger_text p{max-width:100%}
+.stagger_image img{object-fit:cover; height:300px;width:100%}
+
+/* copyright */
+.copyright,
+.copyright p,
+.copyright ul{text-align:center}
+.copyright .cell:last-of-type p,
+.copyright .cell:first-of-type p{text-align:center}
+#back-top{left:auto;right:0}
+}
+
+/*********************************************************************
+
+-------------  SCREEN SIZE:  X-SMALL // PORTRAIT (0 - 500px)
+
+**********************************************************************/
+
+@media screen and (max-width: 31.25em) {
+	
+}
+	
+/*********************************************************************
+
+-------------  SCREEN SIZE:  X-SMALL // PORTRAIT (0 - 413px)
+
+**********************************************************************/
+
+@media screen and (max-width: 25.813em) {
+
+    
+}
+
+/*********************************************************************
+
+-------------  SCREEN SIZE:  X-SMALL // PORTRAIT (0 - 374px)
+
+**********************************************************************/
+
+@media screen and (max-width: 23.375em) {
+    
+}
+/*********************************************************************
+
+-------------  SCREEN SIZE:  X-SMALL // PORTRAIT (0 - 337px)
+
+**********************************************************************/
+@media screen and (max-width: 337px) {
+		h3.thumb-title{font-size:.75em;padding-left:.15rem;padding-right:.15rem}
+			
+	}
+	/*********************************************************************
+
+-------------  SCREEN SIZE:  X-SMALL // PORTRAIT (0 - 254px)
+
+**********************************************************************/
+@media screen and (max-width: 254px) {
+		h3.thumb-title{font-size:.5em;}
+			
+	}
